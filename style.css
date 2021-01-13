@@ -1,0 +1,613 @@
+body{
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  background-image: url("bg.png");
+  background-size:cover;
+  width:1440px;
+}
+
+
+header{
+  background-color: #48B49D;
+  height: 92px;
+align-items: center;
+
+}
+
+.a-all{
+
+
+
+  align-items: center;
+  /* line-height: 92px; */
+  display: flex;
+  width: 1200px;
+  margin:0 auto;
+  justify-content: space-between;
+}
+
+.a1{
+  display: flex;
+  align-items: center;
+}
+
+.a2{
+color:#ffffff;
+font-size: 24px;
+font-weight: 400;
+}
+
+.a2:hover{
+  cursor:pointer;
+  text-decoration: underline;
+}
+
+
+.a3{
+  color:#ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 32px 12px;
+}
+
+.a3:hover{
+  background-color: #58BCA8;
+  cursor:pointer;
+  transition: 0.5s;
+}
+
+/* body2 */
+.b-all{
+  height:789px;
+  background-color: #41AF9A;
+  text-align: center;
+
+
+}
+
+.b1{
+  width: 1200px;
+  margin: auto;
+  padding-top: 236.7px;
+}
+
+.b2{
+  font-weight: 400;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+
+.b3{
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+  margin: 0 300px;
+  margin-top: 24px;
+}
+
+/* body3 */
+.c-all{
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  background-color: #ffffff;
+}
+
+.c1{
+  font-size:24px;
+  color:#241913;
+  padding: 24px 0;
+}
+
+.c-d{
+  padding-top: 52px;
+}
+
+.d-all{
+  padding: 40px 0 ;
+  background-color: #ffffff;
+}
+
+.d-img{
+  width:211px;
+  height:141px;
+}
+
+.d2{
+  width: 48px;
+  height:48px;
+  background-color: #D6B038;
+  line-height: 48px;
+  opacity: 0.7;
+  position: relative;
+  bottom:147px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.d1{
+  display:flex;
+  justify-content: space-around;
+  width:1170px;
+  margin: auto;
+}
+
+.d3{
+  width:123px;
+  height:35px;
+  background-color: #48B49D;
+  font-size:12px;
+  font-weight: 400;
+  color:#ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-bottom: 12px;
+  position: relative;
+  bottom:40px;
+}
+
+.d-span{
+  font-size:12px;
+  font-weight: 400;
+  color:#ffffff;
+}
+
+.d4{
+  color: #241913;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  bottom:40px;
+}
+
+.d3:hover{
+  cursor:pointer;
+}
+
+
+.d4:hover{
+  text-decoration: underline;
+  cursor:pointer;
+
+}
+
+.d5{
+  background-color: #AFB7B9;
+}
+
+.d6{
+  background-color: #875037;
+}
+
+.d7{
+  background-color: #634B32;
+}
+
+.d8{
+  background-color: #4D4B32;
+}
+
+.c-d2{
+  padding-top: 40px;
+}
+
+.d9{
+  background-color: #767C84;
+  position: relative;
+  bottom: 145px;
+  width: 48px;
+  height:48px;
+  opacity: 0.7;
+  color: #ffffff;
+}
+
+.d10{
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  top:3px;
+  font-family: Family
+"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", 游ゴシック, YuGothic, Verdana, メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.d11{
+  font-style: 13px;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  top:3px;
+  font-family: Family
+"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", 游ゴシック, YuGothic, Verdana, メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+
+/* body6 */
+
+.e-all{
+  background-color: #3B4652;
+  color: #ffffff;
+  text-align:center;
+  height:148px;
+}
+
+.tri-border{
+    position: absolute;
+
+    width: 100%;
+    z-index: 20;
+}
+
+.e3{
+    display: block;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-left: 28px solid transparent;
+    border-left: 56px solid transparent;
+    border-right: 56px solid transparent;
+    border-top: 18px solid #3B4552;
+}
+
+.e1{
+  font-size: 28px;
+  padding-top: 60px;
+}
+
+.e2{
+  font-size: 13px;
+}
+
+/* body7 */
+
+/* body7 */
+.f-all{
+  display: flex;
+}
+
+.f-left{
+  width:864px;
+  height: 439px;
+}
+
+.f-left2{
+  width:648px;
+  margin: auto;
+}
+
+
+.f-img{
+  width:576px;
+  height:439px;
+}
+
+
+.f1{
+  background-color: #48B49D;
+  color: #ffffff;
+  width: 34px;
+  height:73px;
+
+}
+
+.fa{
+  position: relative;
+  top:40px;
+  left:12px;
+}
+
+.f2{
+  font-size: 36px;
+  color:#47b39d;
+  font-weight: 400;
+  margin: 40px 0 8px 0;
+}
+
+.f3{
+  font-size: 13px;
+  color:#47b39d;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.f4{
+  font-size: 16px;
+  color:#241913;
+  font-weight: 400;
+
+}
+
+.f5{
+  font-size: 16px;
+  color:#241913;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+
+.f6{
+  font-size: 14px;
+  color:#ffffff;
+  font-weight: 400;
+  background-color: #FF6C05;
+  width:194px;
+  height: 46px;
+  border-radius: 5px;
+  line-height: 46px;
+  text-align: center;
+}
+
+.f6:hover{
+  cursor:pointer;
+  opacity: 0.8;
+  transition: 0.7s;
+}
+
+.f-all{
+  border-bottom: 1px solid #e5e5e5;
+  height: 439px;
+}
+
+
+/* body9 */
+
+.g-all{
+  display: flex;
+  text-align: center;
+
+}
+
+.g1{
+  border-right:2px solid #E5E5E5;
+}
+
+.g-left{
+  width:720px;
+  padding-bottom: 74px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.g2{
+  color:#47b39d;
+  font-size: 40px;
+  font-weight:400;
+  padding-top:96px;
+  margin-bottom: 8px;
+}
+
+.g3{
+  color:#47b39d;
+  font-size: 13px;
+  font-weight:400;
+  margin-bottom: 32px;
+}
+
+.g4{
+  color:#ffffff;
+  font-size: 16px;
+  font-weight:400;
+}
+
+
+.g5{
+  background-color: #47B39D;
+  width:264px;
+  height:57px;
+  margin: auto;
+  line-height: 57px;
+  border-radius: 5px;
+}
+
+.g5:hover{
+  cursor:pointer;
+  opacity: 0.8;
+  transition: 0.7s;
+}
+
+/* body9.5 */
+
+.h-all{
+  display: flex;
+}
+
+.h-left{
+  width:876px;
+  height: 439px;
+  margin-left: 120px;
+  padding-top: 96px;
+}
+
+.h1{
+  display: flex;
+}
+
+.h2{
+  display: flex;
+}
+
+.h3{
+  display: flex;
+}
+
+.h4{
+  width:136px;
+  padding:19px 32px 20px 32px;
+  border-top: 1px solid #E5E5E5;
+
+}
+
+.h4a{
+  width:136px;
+  padding:19px 32px 20px 32px;
+  border-top: 2px solid #48B49D;
+
+}
+
+.h5{
+  width:400px;
+  padding:19px 32px 20px 32px;
+  border-top: 1px solid #E5E5E5;
+
+}
+
+.h6{
+  border-bottom: 1px solid #E5E5E5;
+}
+
+/* フォーム */
+.wrapper{
+  background-color: #48B49D;
+  padding-bottom: 100px;
+}
+form div {
+    margin-bottom: 14px;
+}
+label {
+    font-size: 16px;
+    color: #ffffff;
+
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    background: rgb(255,255,255);
+    border: 1px #CCCCCC solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    max-width: 598px;
+    height: 34px;
+}
+textarea {
+    width: 100%;
+    max-width: 598px;
+    height: 246px;
+}
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+
+}
+
+.i1{
+  text-align: center;
+
+}
+
+.i2{
+  padding-top: 60px;
+}
+
+.i3{
+  text-align: center;
+  color: #F3F3F4;
+  background-color: #131E2A;
+  width: 189px;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.i3:hover{
+  cursor:pointer;
+}
+
+/* body11 */
+.j-all{
+  background-color: #3B4652;
+  height: 8px;
+}
+
+.j1{
+  border-bottom:1px solid #3B4652;
+  padding-bottom: 40px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.k-all{
+  color: #ffffff;
+  background-color: #021831;
+
+}
+.k-all2{
+  width: 1200px;
+  margin: auto;
+  padding: 70px 0 100px 0;
+}
+.k-left{
+  display: flex;
+  margin-top: 45px;
+}
+
+.j2{
+  margin-top:10px;
+}
+
+.j3{
+  margin-left: 40px;
+}
+
+.foot{
+  background-color: #020A18;
+  color: #ffffff;
+  height: 79px;
+  text-align: center;
+  line-height: 79px;
+  font-size: 12px;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.iframe{
+  margin-top: 20px;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 30px;
+}
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 50px;
+  background: rgb(85,85,85);
+  opacity: 0.6;
+  border-radius: 50%;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
